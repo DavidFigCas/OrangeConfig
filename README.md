@@ -5,7 +5,7 @@ Apuntes para la instalacion y configuración de la Orange Pi Zero con Armbian y 
 Para autologin
 https://forum.armbian.com/topic/1903-autologin-to-armbian-console/
 
-under armbian 5.35 Debian Jessie 3.4.113-sun8i I added the following file /lib/systemd/system/getty@tty1.service.d/20-autologin.conf with root privileges:
+under armbian 5.35 Debian Jessie 3.4.113-sun8i I added the following file /lib/systemd/system/getty@tty1.service.d/20-autologin.conf with root privileges pi is the user, could be root:
 
 # /lib/systemd/system/getty@tty1.service.d/20-autologin.conf
 
